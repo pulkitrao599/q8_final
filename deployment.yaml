@@ -17,4 +17,3 @@ spec:
       containers:
         - name: webappdemo
           image: rao26599/webapp:v1
-          args: [/bin/sh, -c, 'i=0; while true; do echo "$i: Hello"; i=$((i+1)); sleep 1; done']
